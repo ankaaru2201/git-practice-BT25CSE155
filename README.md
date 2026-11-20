@@ -3,7 +3,7 @@
 ## Student Information
 - Name: Ankit Kumar
 - Roll Number: BT25CSE155
-- Section: YOUR_SECTION
+- Section: CSE-C1
 - Branch: Computer Science and Engineering
 
 ## Assignment Description
