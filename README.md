@@ -15,12 +15,7 @@ The assignment focuses on Git commands, version control, repository management, 
 
 ## Completed Exercises
 
-Exercise 01
-Exercise 02
-Exercise 03
-Exercise 04
-Exercise 05
-Exercise 06
-
+1. Exercise 01 - Prime Number Checker
+2. Exercise 02 - Factorial of a Number
 
 
