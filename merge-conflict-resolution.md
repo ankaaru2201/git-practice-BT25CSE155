@@ -5,19 +5,26 @@
 A merge conflict occurs when Git cannot automatically
 combine changes made in different branches.
 
-## Conflict Resolution Process
+## Steps Performed
 
-1. Created two separate Git branches.
-2. Modified the same file in both branches.
-3. Committed the changes separately.
-4. Attempted to merge the branches.
-5. Git reported a merge conflict.
-6. Opened the conflicting file.
-7. Manually resolved the conflicting changes.
-8. Added the resolved file using git add.
-9. Committed the final changes.
+1. Created a file named conflict-demo.txt.
+2. Created branch feature/conflict-a.
+3. Modified the file in branch A.
+4. Created branch feature/conflict-b.
+5. Modified the same file differently in branch B.
+6. Attempted to merge branch B into branch A.
+7. Git reported a merge conflict.
+8. Opened the conflicting file.
+9. Manually resolved the conflicting content.
+10. Added and committed the resolved file.
+11. Merged the resolved branch into main.
+
+## Resolution
+
+Removed the Git conflict markers and combined the
+required content into a final version.
 
 ## Conclusion
 
-This exercise demonstrates how to identify and resolve
-merge conflicts using Git.
+Successfully created and resolved a Git merge
+conflict using branching and merging.
