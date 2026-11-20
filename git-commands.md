@@ -1,79 +1,37 @@
-# Git Commands Practice Record
+# Git Commands Record
 
-## 1. Git Configuration
+| Command | Purpose |
+|---|---|
+| git --version | Check Git version |
+| git clone URL | Clone a repository |
+| git init | Initialize a repository |
+| git status | Check repository status |
+| git add . | Stage all changes |
+| git commit -m "message" | Save changes |
+| git push origin main | Upload changes |
+| git pull origin main | Download latest changes |
+| git branch | List branches |
+| git branch branch-name | Create a branch |
+| git switch branch-name | Switch branches |
+| git switch -c branch-name | Create and switch branch |
+| git merge branch-name | Merge another branch |
+| git log --oneline | View commit history |
+| git diff | Compare changes |
+| git rm -r folder-name | Remove a folder |
+| git remote -v | View remote repositories |
 
-git config --global user.name "Ankit Kumar"
-Sets the Git username.
+## Merge Conflict Experience
 
-git config --global user.email "email"
-Sets the Git email address.
+Created two branches:
+- feature/conflict-a
+- feature/conflict-b
 
-## 2. Repository Management
+Modified conflict-demo.txt differently in both branches.
 
-git init
-Initializes a new Git repository.
+Git reported a merge conflict when the branches were merged.
 
-git clone URL
-Clones an existing remote repository.
+Resolved the conflict manually by editing the file, removing conflict markers, staging the resolved file and committing the changes.
 
-git status
-Displays the current repository status.
+## Conclusion
 
-## 3. File Management
-
-git add filename
-Adds a specific file to the staging area.
-
-git add .
-Stages all modified and new files.
-
-git commit -m "message"
-Saves staged changes with a commit message.
-
-## 4. Branching
-
-git branch
-Lists all local branches.
-
-git branch branch-name
-Creates a new branch.
-
-git switch branch-name
-Switches to another branch.
-
-git switch -c branch-name
-Creates and switches to a new branch.
-
-## 5. Merging
-
-git merge branch-name
-Merges another branch into the current branch.
-
-## 6. Remote Repository
-
-git remote -v
-Displays remote repository URLs.
-
-git push origin main
-Uploads local commits to GitHub.
-
-git pull origin main
-Fetches and integrates remote changes.
-
-git fetch
-Downloads remote changes without merging.
-
-## 7. History
-
-git log
-Displays commit history.
-
-git log --oneline
-Displays compact commit history.
-
-git diff
-Shows changes between working files and the index.
-
-git show
-Displays details of a commit.
-
+Practised essential Git commands and successfully resolved a merge conflict.
