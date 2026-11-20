@@ -1,2 +1,2 @@
-This is the original content.
+This is version A of the content.
 Git merge conflict practice.
