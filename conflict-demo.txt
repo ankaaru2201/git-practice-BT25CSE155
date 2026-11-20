@@ -1,2 +1,3 @@
-This is version A of the content.
+This is the final resolved version.
+Both branch changes were reviewed.
 Git merge conflict practice.
